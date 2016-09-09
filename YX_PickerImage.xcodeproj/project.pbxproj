@@ -13,9 +13,15 @@
 		2F0EDDE51D7FDB760099780A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0EDDE31D7FDB760099780A /* Main.storyboard */; };
 		2F0EDDE71D7FDB760099780A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0EDDE61D7FDB760099780A /* Assets.xcassets */; };
 		2F0EDDEA1D7FDB760099780A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0EDDE81D7FDB760099780A /* LaunchScreen.storyboard */; };
+		2F0EDDF21D7FE60D0099780A /* add_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0EDDF11D7FE60D0099780A /* add_img.png */; };
+		2F0EDDF61D7FE7E50099780A /* img_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0EDDF51D7FE7E50099780A /* img_add@2x.png */; };
+		2F0EDDF91D8005080099780A /* ImageCollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0EDDF81D8005080099780A /* ImageCollCell.m */; };
+		2F0EDDFB1D800D5A0099780A /* compose_photo_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0EDDFA1D800D5A0099780A /* compose_photo_close@2x.png */; };
+		4EE6D29D6762006394C1CB10 /* libPods-YX_PickerImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C94B785C1ADE40148F3A16CE /* libPods-YX_PickerImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2867E16D823F6DA1DAF576E7 /* Pods-YX_PickerImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YX_PickerImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-YX_PickerImage/Pods-YX_PickerImage.release.xcconfig"; sourceTree = "<group>"; };
 		2F0EDDD71D7FDB760099780A /* YX_PickerImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YX_PickerImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F0EDDDB1D7FDB760099780A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2F0EDDDD1D7FDB760099780A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,13 @@
 		2F0EDDE61D7FDB760099780A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F0EDDE91D7FDB760099780A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F0EDDEB1D7FDB760099780A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F0EDDF11D7FE60D0099780A /* add_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_img.png; sourceTree = "<group>"; };
+		2F0EDDF51D7FE7E50099780A /* img_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_add@2x.png"; sourceTree = "<group>"; };
+		2F0EDDF71D8005080099780A /* ImageCollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollCell.h; sourceTree = "<group>"; };
+		2F0EDDF81D8005080099780A /* ImageCollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollCell.m; sourceTree = "<group>"; };
+		2F0EDDFA1D800D5A0099780A /* compose_photo_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compose_photo_close@2x.png"; sourceTree = "<group>"; };
+		C94B785C1ADE40148F3A16CE /* libPods-YX_PickerImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YX_PickerImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33BF0190FE4295BF895B0F2 /* Pods-YX_PickerImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YX_PickerImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YX_PickerImage/Pods-YX_PickerImage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE6D29D6762006394C1CB10 /* libPods-YX_PickerImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +58,8 @@
 			children = (
 				2F0EDDD91D7FDB760099780A /* YX_PickerImage */,
 				2F0EDDD81D7FDB760099780A /* Products */,
+				F696157D0C0582D2A8D64F77 /* Pods */,
+				ADFD54C7901EF59677EF24C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +74,15 @@
 		2F0EDDD91D7FDB760099780A /* YX_PickerImage */ = {
 			isa = PBXGroup;
 			children = (
+				2F0EDDFA1D800D5A0099780A /* compose_photo_close@2x.png */,
+				2F0EDDF11D7FE60D0099780A /* add_img.png */,
+				2F0EDDF51D7FE7E50099780A /* img_add@2x.png */,
 				2F0EDDDD1D7FDB760099780A /* AppDelegate.h */,
 				2F0EDDDE1D7FDB760099780A /* AppDelegate.m */,
 				2F0EDDE01D7FDB760099780A /* ViewController.h */,
 				2F0EDDE11D7FDB760099780A /* ViewController.m */,
+				2F0EDDF71D8005080099780A /* ImageCollCell.h */,
+				2F0EDDF81D8005080099780A /* ImageCollCell.m */,
 				2F0EDDE31D7FDB760099780A /* Main.storyboard */,
 				2F0EDDE61D7FDB760099780A /* Assets.xcassets */,
 				2F0EDDE81D7FDB760099780A /* LaunchScreen.storyboard */,
@@ -79,6 +100,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ADFD54C7901EF59677EF24C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C94B785C1ADE40148F3A16CE /* libPods-YX_PickerImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F696157D0C0582D2A8D64F77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D33BF0190FE4295BF895B0F2 /* Pods-YX_PickerImage.debug.xcconfig */,
+				2867E16D823F6DA1DAF576E7 /* Pods-YX_PickerImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F0EDDEE1D7FDB760099780A /* Build configuration list for PBXNativeTarget "YX_PickerImage" */;
 			buildPhases = (
+				FCC489A02B6C962A7A154DE5 /* [CP] Check Pods Manifest.lock */,
 				2F0EDDD31D7FDB760099780A /* Sources */,
 				2F0EDDD41D7FDB760099780A /* Frameworks */,
 				2F0EDDD51D7FDB760099780A /* Resources */,
+				3152BAC6B29613BB59BE2D78 /* [CP] Embed Pods Frameworks */,
+				AAF9AF10D5E261B36E36CB5B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,13 +177,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0EDDF61D7FE7E50099780A /* img_add@2x.png in Resources */,
+				2F0EDDFB1D800D5A0099780A /* compose_photo_close@2x.png in Resources */,
 				2F0EDDEA1D7FDB760099780A /* LaunchScreen.storyboard in Resources */,
 				2F0EDDE71D7FDB760099780A /* Assets.xcassets in Resources */,
 				2F0EDDE51D7FDB760099780A /* Main.storyboard in Resources */,
+				2F0EDDF21D7FE60D0099780A /* add_img.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3152BAC6B29613BB59BE2D78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YX_PickerImage/Pods-YX_PickerImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAF9AF10D5E261B36E36CB5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YX_PickerImage/Pods-YX_PickerImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC489A02B6C962A7A154DE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2F0EDDD31D7FDB760099780A /* Sources */ = {
@@ -152,6 +244,7 @@
 				2F0EDDE21D7FDB760099780A /* ViewController.m in Sources */,
 				2F0EDDDF1D7FDB760099780A /* AppDelegate.m in Sources */,
 				2F0EDDDC1D7FDB760099780A /* main.m in Sources */,
+				2F0EDDF91D8005080099780A /* ImageCollCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +354,7 @@
 		};
 		2F0EDDEF1D7FDB760099780A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D33BF0190FE4295BF895B0F2 /* Pods-YX_PickerImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YX_PickerImage/Info.plist;
@@ -272,6 +366,7 @@
 		};
 		2F0EDDF01D7FDB760099780A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2867E16D823F6DA1DAF576E7 /* Pods-YX_PickerImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YX_PickerImage/Info.plist;
@@ -300,6 +395,7 @@
 				2F0EDDF01D7FDB760099780A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
